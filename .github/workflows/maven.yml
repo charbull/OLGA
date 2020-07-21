@@ -26,5 +26,5 @@ jobs:
           cd RDFAlchemy
           python setup.py install
     - name: Build with Maven
-      run: mvn clean install --projects OLGA-Core,OLGA-Cli --file pom.xml -DskipTests
+      run: mvn clean install --projects OLGA-Core,OLGA-Cli --file pom.xml
       working-directory: ./OLGA
